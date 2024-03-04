@@ -1,0 +1,232 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+main{
+	width: auto;
+	height: 800px;
+}
+#abertura{
+	background-image: url("ground.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 800px;
+}
+#au{
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	position: relative;
+	top: -10px;
+	right: -500px;
+
+}
+#nome{
+	height: 614px;
+    width: 614px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -150px;
+}
+#imagem1{
+	position: relative;
+	top: -310px;
+	text-align: left;
+}
+#imagem2{
+	position: relative;
+	top: -710px;
+	text-align: right;
+}
+
+.botao{
+	position: relative;
+	text-align: center;
+	top: -1200px;
+	display: flex;
+	justify-content: center;
+}
+.botao .btn{
+    margin-top: 10px;
+    position: relative;
+    outline: 2px solid #ffffff;
+    color: #ffffff;
+    margin: 10px;
+    background-color: #2FF429;
+}
+
+.botao .btn:hover{
+	color: #2FF429;
+	background-color: #ffffff;
+	margin: 10px;
+}
+
+.botao a{
+	font-size: 30px;
+}
+
+
+
+#info{
+	background-image: url("logo.gif");
+	max-height: 800px;
+}
+.titulo{
+	height: 614px;
+    width: 614px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -100px;
+}
+p{
+	color: #ffffff;
+    font-style: normal;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 30px;
+}
+#paragrafo{
+	position: relative;
+	top: -600px;
+	padding: 50px;
+}
+.personagens{
+    height: 90px;
+    position: absolute;
+    top: 1214px;
+    left: 50px;
+    right: 50px;
+}
+.personagens img{
+	height: 193px;
+    width: 180px;
+    margin: 5px;
+}
+
+
+
+#video{
+	background-image: url("fundo.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+#video #video1{
+	position: absolute;
+	top: 20%;
+	left: 15%;
+}
+#video #video2{
+	position: absolute;
+	top: 20%;
+	right: 15%;
+}
+
+
+
+#bio{
+	background-image: url("queen.gif");
+	height: 800px;
+	position: relative;
+}
+.quadro{
+	background-image: linear-gradient(to right, #2FF429, #000000);
+	border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 10px 10px 20px #ffffff;
+    position: absolute;
+    top: 15%;
+	left: 30%;
+}
+H1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 3px black;
+}
+
+#btnator{
+	text-align: center;
+}
+button{
+	background-color: #000000;
+	color: #2FF429;
+}
+
+button:hover{
+	background-color: #ffffff;
+	color: #2FF429;
+}
+
+
+#midia{
+	background-image: url("fundo.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+	position: relative;
+}
+#midia .carrossel{
+	width: 308px;
+	height: 780px;
+	overflow: hidden;
+	position: absolute;
+    top: 20%;
+	left: 40%;
+}
+#midia .carrossel .fotos {
+	width: 500%;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	display: flex;
+}
+#midia .carrossel .fotos img {
+	width: 20%;
+}
+@keyframes animacao{
+	0% {margin-left: 0}
+	20% {margin-left: 0}
+	25% {margin-left: -100%}
+	45% {margin-left: -100%}
+	50% {margin-left: -200%}
+	70% {margin-left: -200%}
+	75% {margin-left: -300%}
+	95% {margin-left: -300%}
+	100% {margin-left: -400%}
+}
+
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+	bottom: -200px;
+}
+footer p{
+	text-align: center;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #2FF429;
+	text-decoration: none;
+}
